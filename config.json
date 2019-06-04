@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "Debug cmd",
+      "mode": "debug",
+      "env": {
+        "USER": "ROOT",
+        "PW": "SECRET!",
+        "DBCONNECTIONSTR":"mongodb://asafg:bigmac1987@ds155606.mlab.com:55606/todo"
+      }
+    },
+    {
+      "name": "Verbose Test",
+      "mode": "test",
+      "args": ["-test.v"],
+      "env": {
+        "USER": "ROOT",
+        "PW": "SECRET!",
+        "DBCONNECTIONSTR":"mongodb://asafg:bigmac1987@ds155606.mlab.com:55606/todo"
+      }
+    }
+  ]
+}
